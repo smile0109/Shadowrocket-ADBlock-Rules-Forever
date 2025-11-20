@@ -64,6 +64,11 @@ values['top500_proxy']  = getRulesStringFromFile('resultant/top500_proxy.list', 
 values['top500_direct'] = getRulesStringFromFile('resultant/top500_direct.list', 'Direct')
 
 values['ad'] = getRulesStringFromFile('resultant/ad.list', 'Reject')
+# --- 新增代码开始 ---
+# 添加自定义广告规则
+values['ad'] += getRulesStringFromFile('my_ad_rules.list', 'Reject')
+# --- 新增代码结束 ---
+
 
 values['manual_direct'] = getRulesStringFromFile('manual_direct.txt', 'Direct')
 values['manual_proxy']  = getRulesStringFromFile('manual_proxy.txt', 'Proxy')
