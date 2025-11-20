@@ -1,6 +1,6 @@
 # 微博开屏广告
-DOMAIN,bootpreload.uve.weibo.com,REJECT
-DOMAIN,adstrategy.biz.weibo.com,REJECT
+DOMAIN-SUFFIX,bootpreload.uve.weibo.com,REJECT
+DOMAIN-SUFFIX,adstrategy.biz.weibo.com,REJECT
 
 # 菜鸟裹裹广告
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
